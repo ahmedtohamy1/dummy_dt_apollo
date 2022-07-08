@@ -23,6 +23,6 @@ PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="apollo_eea-user 12 RKQ1.211001.001 V13.0.6.0.SJDEUXM release-keys"
+    PRIVATE_BUILD_DESC="apollo_eea-user 12 RKQ1.211001.001 V13.0.7.0.SJDEUXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/apollo_eea/apollo:12/RKQ1.211001.001/V13.0.6.0.SJDEUXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/apollo_eea/apollo:12/RKQ1.211001.001/V13.0.7.0.SJDEUXM:user/release-keys

@@ -1,4 +1,4 @@
-# Unpinned blobs from apollo_eea-user 12 RKQ1.211001.001 V13.0.6.0.SJDEUXM release-keys
+# Unpinned blobs from apollo_eea-user 12 RKQ1.211001.001 V13.0.7.0.SJDEUXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -23,6 +23,7 @@ vendor/lib64/libadsprpc.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
+vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
@@ -714,6 +715,7 @@ vendor/etc/camera/goturn_search_dsp.dlc
 vendor/etc/camera/goturn_target_dsp.dlc
 vendor/etc/camera/hdrd_ui9_params.config
 vendor/etc/camera/megviifacepp_0_5_2_model
+vendor/etc/camera/miai_psn_config.yaml
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
 vendor/etc/camera/model.dat
@@ -2492,9 +2494,9 @@ vendor/firmware/vibrator_firmware_aidl/13_ringTone4_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/140_cfmKillOne_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/141_cfmHeadshot_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/142_cfmMultiKill_RTP.bin
-vendor/firmware/vibrator_firmware_aidl/143_cfmKillOne_Strong_RTP.bin
-vendor/firmware/vibrator_firmware_aidl/144_cfmHeadshot_Strong_RTP.bin
-vendor/firmware/vibrator_firmware_aidl/145_cfmMultiKill_Strong_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/143_cfmKillOneStrong_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/144_cfmHeadshotStrong_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/145_cfmMultiKillStrong_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/146_cfmWeaponGrenadeExplode_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/147_cfmWeaponGrenadeKillOne_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/148_cfmImpactFleshNormal_RTP.bin
@@ -2612,7 +2614,7 @@ vendor/firmware/vibrator_firmware_aidl/78_fodMotion2_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/79_fodMotion3_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/7_ringTone2_P_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/80_fodMotion4_RTP.bin
-vendor/firmware/vibrator_firmware_aidl/81_fodMotion_Aurora_RTP.bin
+vendor/firmware/vibrator_firmware_aidl/81_fodMotionAurora_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/82_FaceIDWrong2_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/83_uninstallAnimation_RTP.bin
 vendor/firmware/vibrator_firmware_aidl/84_uninstallDialog_RTP.bin
@@ -2669,9 +2671,9 @@ vendor/firmware/13_ringTone4_RTP.bin
 vendor/firmware/140_cfmKillOne_RTP.bin
 vendor/firmware/141_cfmHeadshot_RTP.bin
 vendor/firmware/142_cfmMultiKill_RTP.bin
-vendor/firmware/143_cfmKillOne_Strong_RTP.bin
-vendor/firmware/144_cfmHeadshot_Strong_RTP.bin
-vendor/firmware/145_cfmMultiKill_Strong_RTP.bin
+vendor/firmware/143_cfmKillOneStrong_RTP.bin
+vendor/firmware/144_cfmHeadshotStrong_RTP.bin
+vendor/firmware/145_cfmMultiKillStrong_RTP.bin
 vendor/firmware/146_cfmWeaponGrenadeExplode_RTP.bin
 vendor/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin
 vendor/firmware/148_cfmImpactFleshNormal_RTP.bin
@@ -2789,7 +2791,7 @@ vendor/firmware/78_fodMotion2_RTP.bin
 vendor/firmware/79_fodMotion3_RTP.bin
 vendor/firmware/7_ringTone2_P_RTP.bin
 vendor/firmware/80_fodMotion4_RTP.bin
-vendor/firmware/81_fodMotion_Aurora_RTP.bin
+vendor/firmware/81_fodMotionAurora_RTP.bin
 vendor/firmware/82_FaceIDWrong2_RTP.bin
 vendor/firmware/83_uninstallAnimation_RTP.bin
 vendor/firmware/84_uninstallDialog_RTP.bin
