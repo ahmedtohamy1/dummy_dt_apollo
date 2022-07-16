@@ -1,4 +1,4 @@
-# Unpinned blobs from apollo_eea-user 12 RKQ1.211001.001 V13.0.8.0.SJDEUXM release-keys
+# Unpinned blobs from apollo_global-user 12 RKQ1.211001.001 V13.0.5.0.SJDMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -3347,7 +3347,6 @@ vendor/etc/msm_irqbalance.conf
 vendor/etc/noise_table_64_64.rgb
 vendor/etc/pm_test_item_config.xml
 vendor/etc/public.libraries.txt
-vendor/etc/qvaconfig.xml
 vendor/etc/rcv.wav
 vendor/etc/rcv_ultrasound.wav
 vendor/etc/sap.conf
