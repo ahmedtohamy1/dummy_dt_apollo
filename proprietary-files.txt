@@ -1,4 +1,4 @@
-# Unpinned blobs from apollo_global-user 12 RKQ1.211001.001 V13.0.5.0.SJDMIXM release-keys
+# Unpinned blobs from apollo_global-user 12 RKQ1.211001.001 V13.0.6.0.SJDMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -973,14 +973,6 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/libhwminijail.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
-# ConsumerIr
-vendor/bin/hw/android.hardware.ir@1.0-service
-vendor/etc/init/android.hardware.ir@1.0-service.rc
-vendor/lib/hw/android.hardware.ir@1.0-impl.so
-vendor/lib/hw/consumerir.default.so
-vendor/lib64/hw/android.hardware.ir@1.0-impl.so
-vendor/lib64/hw/consumerir.default.so
-
 # CVP
 system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so
 system_ext/lib/vendor.qti.hardware.cvp@1.0.so
@@ -1336,7 +1328,9 @@ vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc
 vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml
 
 # Fingerprint
+system_ext/lib/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+system_ext/lib64/vendor.qti.hardware.fingerprint@1.0.so
 system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
@@ -1462,6 +1456,14 @@ vendor/firmware/ipa_uc.b01
 vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
+
+# IR
+vendor/bin/hw/android.hardware.ir@1.0-service
+vendor/etc/init/android.hardware.ir@1.0-service.rc
+vendor/lib/hw/android.hardware.ir@1.0-impl.so
+vendor/lib/hw/consumerir.default.so
+vendor/lib64/hw/android.hardware.ir@1.0-impl.so
+vendor/lib64/hw/consumerir.default.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
